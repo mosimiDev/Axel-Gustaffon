@@ -8,142 +8,166 @@
  <link rel="stylesheet" href="./dist/output.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="container mx-auto" >
- <div class="bg-yellow-700 h-96 w-full">
-  <nav class="flex justify-between relative mx-auto  px-5 w-full">
-   <h1 class="text-white relative font-bold text-2xl  w-4 leading-6 ">AXEL GUSTAFSSON</h1>
-   <a href="javascript:void(0);" class="block md:hidden text-white text-xl mt-4 " id="barsIcon" onclick="barFunction()">
-    <i class="fa-solid fa-bars " ></i>
-  </a>
-   <a href="javascript:void(0);" class="hidden text-white text-xl mt-4 "id="closeIcon" onclick="closeFunction()">
-    <i class="fa-solid fa-xmark" ></i>
-  </a>
-   <ul class="hidden text-center md:flex md:mt-4 md:ml-80 lg:ml-96 overflow-hidden z-20 md:z-auto  absolute shrink-0 bg-black  md:bg-opacity-0 left-0 w-full md:w-auto md:py-0 py-4   transition-all ease-in duration-400" id="myList">
-    <li class="my-6 md:block md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6  xl:px-10 hover:text-yellow-700 md:hover:text-white md:hover:underline " href="#">HOME</a></li>
-    <hr class="w-4/5 ml-9 md:hidden">
-    <li class="my-6 md:block md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6 xl:px-10 hover:text-yellow-700 md:hover:text-white  md:hover:underline" href="#">WORK</a></li>
-    <hr class="w-4/5 ml-9 md:hidden">
-    <li class="my-6 md:block md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6 xl:px-10 hover:text-yellow-700 md:hover:text-white md:hover:underline" href="#">DECOR</a></li>
-    <hr class="w-4/5 ml-9 md:hidden">
-    <li class="my-6 md:block md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6 xl:px-10 hover:text-yellow-700 md:hover:text-white md:hover:underline " href="#">AXEL</a></li>
-    <hr class="w-4/5 ml-9 md:hidden">
-    <button class=" md:block text-white bg-black font-mono h-8 w-28 mx-0 my-4 xl:ml-24  md:my-0 rounded-full hover:bg-white hover:text-black">TALK TO US</button>
-   </ul>
-   
-  </nav>
-  <div class="mt-12">
-   <input type="text" placeholder="e.g sofa, ottoman, desk" class="ml-5 sm:ml-10lg:px-8 lg:ml-16 xl:ml-28 py-2 placeholder-gray-500 placeholder:pl-8 border-none ring-2 ring-gray-200  rounded-full w-4/5 focus: gray-300 focus:ring-2" >
-   <button class="ml-4 w-5 h-6"><svg class="fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"/></svg></button>
-  </div>
-  <div class="flex mt-6 md:mt-8 md:ml-16 lg:ml-48 xl:ml-60 relative mx-6">
-   <img src="./assets/Section-couleur-terreuses-1536x1260.jpg" alt="img" class="w-72 sm:w-96 h-64 lg:h-72 xl:w-2/4 rounded-md object-cover absolute object-center" >
-   <div class="absolute left-64 sm:left-80 xl:left-96 xl:pl-28 w-40 sm:w-42 sm:w-64">
-    <h2 class="text-white font-bold text-xl sm:text-3xl tracking-wide sm:text-2xl lg:text-3xl leading-8 w-44 sm:w-64">Transform your space with 100% Alps Timber</h2>
-    <p class="text-white text-sm sm:text-lg lg:text-lg sm:tracking-tight w-48 sm:w-64 ">Homegrown craftmanship passed down from decades of process and improvements</p>
-    <button class="text-white text-sm bg-black p-1 rounded-lg mt-2 border hover:text-black hover:bg-white">GET STARTED</button>
-   </div>
-  </div>
+<body>
+  <!-- Container -->
+  <div class="w-vw h-full">
+    <!-- Landing Page -->
+    <div class="bg-yellow-700 h-96 w-vw">
+      <!-- Nav Bar -->
+      <nav class="flex justify-between relative mx-auto  px-5 w-full">
+      <h1 class="text-white relative font-bold text-2xl  w-4 leading-6 ">AXEL GUSTAFSSON</h1>
+      <a href="javascript:void(0);" class="block md:hidden text-white text-xl mt-4 " id="barsIcon" onclick="barFunction()">
+        <i class="fa-solid fa-bars " ></i>
+      </a>
+      <a href="javascript:void(0);" class="hidden text-white text-xl mt-4 "id="closeIcon" onclick="closeFunction()">
+        <i class="fa-solid fa-xmark" ></i>
+      </a>
+      <ul class="hidden text-center md:flex md:mt-4 md:ml-80 lg:ml-96 overflow-hidden z-20 md:z-auto  absolute shrink-0 bg-black  md:bg-opacity-0 left-0 w-full md:w-auto md:py-0 py-4   transition-all ease-in duration-400" id="myList">
+        <li class="my-6 md:block md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6  xl:px-10 hover:text-yellow-700 md:hover:text-white md:hover:underline " href="#">HOME</a></li>
+        <hr class="w-4/5 ml-9 md:hidden">
+        <li class="my-6 md:block md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6 xl:px-10 hover:text-yellow-700 md:hover:text-white  md:hover:underline" href="#">WORK</a></li>
+        <hr class="w-4/5 ml-9 md:hidden">
+        <li class="my-6 md:block md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6 xl:px-10 hover:text-yellow-700 md:hover:text-white md:hover:underline" href="#">DECOR</a></li>
+        <hr class="w-4/5 ml-9 md:hidden">
+        <li class="my-6 md:block md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6 xl:px-10 hover:text-yellow-700 md:hover:text-white md:hover:underline " href="#">AXEL</a></li>
+        <hr class="w-4/5 ml-9 md:hidden">
+        <button class=" md:block text-white bg-black font-mono h-8 w-28 mx-0 my-4 xl:ml-24  md:my-0 rounded-full hover:bg-white hover:text-black">TALK TO US</button>
+      </ul>
+      </nav>
+      <!-- End of Nav Bar -->
+      <!-- Input bar & Search button -->
+      <div class="mt-12">
+      <input type="text" placeholder="e.g sofa, ottoman, desk" class="ml-5 sm:ml-10lg:px-8 lg:ml-16 xl:ml-28 py-2 placeholder-gray-500 placeholder:pl-8 border-none ring-2 ring-gray-200  rounded-full w-4/5 focus: gray-300 focus:ring-2" >
+      <button class="ml-4 w-5 h-6"><svg class="fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"/></svg></button>
+      </div>
+      <!-- End of Input bar & Search button -->
+      <!-- Hero section -->
+      <div class="w-vw flex mt-6 md:mt-8 md:ml-16 lg:ml-48 xl:ml-60 relative ">
+      <img src="./assets/Section-couleur-terreuses-1536x1260.jpg" alt="img" class="w-3/5 ml-6 sm:w-96 h-64 lg:h-72 xl:w-2/4 rounded-md object-cover absolute object-center" >
+      <div class="absolute left-40 sm:left-80 xl:left-96 xl:pl-28 w-48 sm:w-42 sm:w-64">
+        <h2 class="text-white leading-7 font-bold text-xl sm:text-3xl tracking-wide sm:text-2xl lg:text-3xl  w-44 sm:w-64">Transform your space with 100% Alps Timber</h2>
+        <p class="text-white leading-6 text-sm sm:text-lg lg:text-lg sm:tracking-tight  sm:w-64 ">Homegrown craftmanship passed down from decades of process and improvements</p>
+        <button class="text-white text-sm bg-black p-1 rounded-lg mt-2 border hover:text-black hover:bg-white">GET STARTED</button>
+      </div>
+      </div>
+      <!-- End of Hero section -->
+    </div>
+    <!-- End of Landing Page -->
+    <!-- Body -->
+    <div class="bg-white w-vw h-full">
+      <div class=" w-vw flex   lg:ml-12 ">
+      <div class=" w-2/5 lg:w-64  sm:w-72 mx-4 md:mx-0  md:ml-10  lg:ml-11 sm:items-right">
+        <h2 class="font-bold  sm:text-center text-2xl sm:text-2xl  lg:ml-40 lg:tracking-wider pt-10  md:pt-20 w-48 sm:w-64 ">Indulge in Scandinavian luxury</h2>
+        <p class="text-sm sm:text-lg  md:w-56 font-serif w-40 sm:w-52 mt-2 sm:pl-4 md:pl-8 lg:ml-36 lg:my-4 tracking-wider sm: tracking-tight">Grown, sanded, designed and engineered in Switzerland's Reserves</p>
+        <button class="text-white py-2 px-1 text-xs bg-yellow-700 rounded-lg lg:absolute sm:ml-8 lg:ml-44 xl:ml-40 lg:mr-0 mt-4 ml-2 md:mt-0   hover:fa-underline ">WATCH OUR PROCESS</button>
+      </div>
+      <img src="./assets/jeffery-ho-TIN_Lh9-Y7g-unsplash.jpg" class=" w-1/2 h-full sm:w-72 md:w-96 md:h-96 sm:ml-16 md:ml-16 lg:ml-52  sm:pt-4 lg:pt-12 xl:pt-16  xl:w-2/4  object-cover object-center xl:object-fit z-10 rounded-lg mr-2" alt="img">
+      </div>
+      <div class="mt-12 mx-auto">
+      <h1 class="font-bold md:text-xl  ml-6 lg:ml-16">EXPLORE</h1>
+      <div class="flex mx-5 lg:mx-16 ">
+        <div class="w-1/3 md:w-4/12">
+        <img src="./assets/1dcbf22caba3b511d8e24cedb1b331ab.jpg" alt="img" class="object-cover object-center lg:object-bottom w-full h-28 md:h-36">
+        <p class="mt-2 text-center ml-2 text-sm sm:text-md md:text-lg lg:w-52 lg:ml-12 xl:w-60 xl:ml-16 leading-6">Furniture crafted with 100% Alps timber, decades old carpentary process</p>
+        </div>
+        <div class="w-1/3 md:w-4/12">
+        <img src="./assets/jean-philippe-delberghe_unsplash-1-200x300.jpg" alt="img" class="object-cover object-center w-full h-28 md:h-36 overflow-hidden">
+        <p class="mt-2 text-center ml-2 text-sm sm:text-md md:text-lg lg:w-52 lg:ml-12 xl:w-60 xl:ml-20    leading-6">Sophisticated fixtures and high end decorative services</p>
+        </div>
+        <div class="w-1/3 md:w-4/12">
+        <img src="./assets/nathan-oakley-5IJvk9zN-ro-unsplash.jpg" alt="img" class="object-cover object-center lg:object-bottom w-full h-28 md:h-36">
+        <p class="mt-2 text-center ml-2 text-sm sm:text-md md:text-lg lg:w-52 lg:ml-12 xl:w-60 xl:ml-24  leading-6">An incorporation of modern urban design and traditional minimal craft</p>
+        </div>
+      </div>
+      </div>
+      <h1 class="font-bold  ml-3 sm:ml-12 lg:ml-16 md:text-lg pb-2 mt-12 sm:mt-14">MAKEOVER YOUR</h1>
+      <div class="relative w-vw h-1/2 sm:w-4/5 md:w-11/12 md:max-h-fit">
+      <img src="./assets/under-cabinet-task-lighting-2000x875.jpg" alt="img" class="object-cover object-center w-full h-full">
+      <p class="absolute sm:text-white left-2  top-36 sm:top-48 md:pt-20 lg:pt-44 xl:pt-64 sm:text-lg md:text-xl font-bold tracking-wider">HOME</p>
+      <div class="relative  my-6 w-vw sm:w-full h-1/2 md:w-full md:max-h-fit">
+      <img src="./assets/built-in-reading-nook-230817-111-01.jpg" alt="img" class="object-cover object-center lg:object-bottom w-full h-full lg:h-fit">
+      <p class="absolute left-2 sm:text-gray-300 top-44 sm:top-60 md:pt-24 lg:pt-48 xl:pt-80 md:text-xl font-bold tracking-wider">WORKSPACES</p>
+      <div class="relative my-6 w-vw h-1/2 sm:w-full md:w-full md:max-h-fit">
+      <img src="./assets/quaz_blog_kanso.jpg" alt="img" class="object-cover object-center w-full h-full lg:h-fit">
+      <p class="absolute top-40 sm:top-56 sm:text-white left-5 sm:left-2 md:pt-24 lg:pt-44 xl:pt-72 md:text-xl font-bold tracking-wider ">SPACE & REC SPACES</p>
+      </div>
+    </div>
+    </div>
+    <div class="bg-yellow-700 w-vw relative h-64 sm:h-56">
+      <h1 class="font-bold text-3xl rotate-90 absolute top-16 sm:top-6 w-5 tracking-widest">CLIENTELE</h1>
+      <div class="flex mx-auto w-3/4 ">
+        <div  class="w-1/3 mx-3 mt-14" >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 md:w-5"><path d="M96 96C42.98 96 0 138.1 0 192s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192C192 138.1 149 96 96 96zM448 192c0-53.02-42.98-96-96-96s-96 42.98-96 96s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192z"/></svg>
+        <p class="text-white text-xs sm:text-sm lg:text-lg h-18  sm:h-6 text-center">TRUSTED HIGH END COMFORT AND LUXURY</p>
+        <a href="#"><img src="https://www.freepnglogos.com/uploads/vogue-png-logo/vogue-emblem-png-logo-6.png" class="object-fit object-center" width="100" alt=""></a>
+        </div>
+        <div class="w-1/3 mx-3 mt-8 h-20" >
+        <p class="text-white text-xs sm:text-sm  lg:text-lg h-14 lg:h-16 sm:h-10 text-center">TRUSTED HIGH END COMFORT AND LUXURY</p>
+        <br class="sm:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 md:w-5"><path d="M96 96C42.98 96 0 138.1 0 192s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192C192 138.1 149 96 96 96zM448 192c0-53.02-42.98-96-96-96s-96 42.98-96 96s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192z"/></svg>
+        <a href="#"><img src="https://iconape.com/wp-content/files/ju/183533/png/architectural-digest-logo.png" width="50" alt=""></a>
+        </div>
+        <div class="w-1/3 mx-3 mt-10">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 md:w-5"><path d="M96 96C42.98 96 0 138.1 0 192s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192C192 138.1 149 96 96 96zM448 192c0-53.02-42.98-96-96-96s-96 42.98-96 96s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192z"/></svg>
+        <p class="text-white text-xs sm:text-sm lg:text-lg h-10 sm:h-8 text-center">SOPHISTICATED FIXTURES AND HIGH END WIRING SERVICES</p>
+        <br>
+        <a href="#"><img src="https://iconape.com/wp-content/files/tr/200419/svg/elle-decor-seeklogo.com.svg" alt="" width="100"></a>
+        </div>
+      </div>
+      </div>
+      <div class="mt-8 w-vw relative h-64 ">
+      <img src="./assets/Connolly-Company-Walnut-Desk-iii-1280x853.jpg" alt="" class="w-full h-full  object-cover object-center ">
+      <div class="absolute h-32 py-4 px-2 bg-black rounded-lg top-16 left-5 sm:left-32 md:left-40 lg:left-80 xl:left-96 sm:left-52 md:ml-16">
+        <h2 class="text-white text-center md:tracking-wider lg:text-lg w-80 ">Discover your furniture style with this AI Powered quiz</h2>
+        <button class="text-white text-sm bg-black ml-24 p-1 font-mono rounded-lg w-28 h-8 border hover:text-black hover:bg-white ">TAKE QUIZ</button>
+      </div>
+      </div>
+      <!-- End of Body -->
+      <!-- Footer Section -->
+      <footer class="bg-yellow-700 w-full mt-4 flex justify-between">
+          <!-- Categories & Our work & Icons section -->
+        <div class="pt-12 ml-5 md:ml-10 lg:ml-16">
+          <div class="my-5">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="w-4 fill-white"><path d="M0 80C0 53.49 21.49 32 48 32H144C170.5 32 192 53.49 192 80V96H384V80C384 53.49 405.5 32 432 32H528C554.5 32 576 53.49 576 80V176C576 202.5 554.5 224 528 224H432C405.5 224 384 202.5 384 176V160H192V176C192 177.7 191.9 179.4 191.7 180.1L272 288H368C394.5 288 416 309.5 416 336V432C416 458.5 394.5 480 368 480H272C245.5 480 224 458.5 224 432V336C224 334.3 224.1 332.6 224.3 331L144 224H48C21.49 224 0 202.5 0 176V80z"/></svg>
+          <p class="text-white text-xs cursor-pointer hover:underline">CATEGORIES</p>
+          </div>
+          <div class="my-5">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-4 fill-white "><path d="M288 358.3c13.98-8.088 17.53-30.04 28.88-41.39c11.35-11.35 33.3-14.88 41.39-28.87c7.98-13.79 .1658-34.54 4.373-50.29C366.7 222.5 383.1 208.5 383.1 192c0-16.5-17.27-30.52-21.34-45.73c-4.207-15.75 3.612-36.5-4.365-50.29c-8.086-13.98-30.03-17.52-41.38-28.87c-11.35-11.35-14.89-33.3-28.87-41.39c-13.79-7.979-34.54-.1637-50.29-4.375C222.5 17.27 208.5 0 192 0C175.5 0 161.5 17.27 146.3 21.34C130.5 25.54 109.8 17.73 95.98 25.7C82 33.79 78.46 55.74 67.11 67.08C55.77 78.43 33.81 81.97 25.72 95.95C17.74 109.7 25.56 130.5 21.35 146.2C17.27 161.5 .0008 175.5 .0008 192c0 16.5 17.27 30.52 21.34 45.73c4.207 15.75-3.615 36.5 4.361 50.29C33.8 302 55.74 305.5 67.08 316.9c11.35 11.35 14.89 33.3 28.88 41.4c13.79 7.979 34.53 .1582 50.28 4.369C161.5 366.7 175.5 384 192 384c16.5 0 30.52-17.27 45.74-21.34C253.5 358.5 274.2 366.3 288 358.3zM112 192c0-44.27 35.81-80 80-80s80 35.73 80 80c0 44.17-35.81 80-80 80S112 236.2 112 192zM1.719 433.2c-3.25 8.188-1.781 17.48 3.875 24.25c5.656 6.75 14.53 9.898 23.12 8.148l45.19-9.035l21.43 42.27C99.46 507 107.6 512 116.7 512c.3438 0 .6641-.0117 1.008-.0273c9.5-.375 17.65-6.082 21.24-14.88l33.58-82.08c-53.71-4.639-102-28.12-138.2-63.95L1.719 433.2zM349.6 351.1c-36.15 35.83-84.45 59.31-138.2 63.95l33.58 82.08c3.594 8.797 11.74 14.5 21.24 14.88C266.6 511.1 266.1 512 267.3 512c9.094 0 17.23-4.973 21.35-13.14l21.43-42.28l45.19 9.035c8.594 1.75 17.47-1.398 23.12-8.148c5.656-6.766 7.125-16.06 3.875-24.25L349.6 351.1z"/></svg>
+          <p class="text-white text-xs cursor-pointer hover:underline">OUR WORK</p>
+          </div>
+          <div class="my-5 sm:mt-8">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-4 fill-white"><path d="M256 0v128h128L256 0zM224 128L224 0H48C21.49 0 0 21.49 0 48v416C0 490.5 21.49 512 48 512h288c26.51 0 48-21.49 48-48V160h-127.1C238.3 160 224 145.7 224 128zM96 32h64v32H96V32zM96 96h64v32H96V96zM96 160h64v32H96V160zM128.3 415.1c-40.56 0-70.76-36.45-62.83-75.45L96 224h64l30.94 116.9C198.7 379.7 168.5 415.1 128.3 415.1zM144 336h-32C103.2 336 96 343.2 96 352s7.164 16 16 16h32C152.8 368 160 360.8 160 352S152.8 336 144 336z"/></svg>
+          </div>
+        </div>
+        <!-- End of Categories & Our work & Icons section -->
+        <!-- Logo Text -->
+        <h1 class="text-white sm:text-lg lg:text-2xl xl:text-3xl sm:font-bold mt-28 w-6 text-center mr-16 xl:mr-20 tracking-widest">AXEL GUSTAFSSON</h1>
+        <!-- End of Logo Text -->
+        <!-- Support and Enquiries & Find us & Social media icons section  -->
+        <div class="mt-12 mr-2 w-28 md:mr-5 xl:mr-10">
+          <div class="my-5">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 sm:w-5 fill-white"><path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"/></svg>
+          <p class="text-white text-center w-2 sm:w-28 text-xs cursor-pointer hover:underline">SUPPORT AND ENQUIRIES</p>
+          </div>
+          <div class="my-5">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-4 sm:w-5 sm:ml-3 fill-white"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+          <p class="text-white text-xs sm:ml-3 cursor-pointer hover:underline">FIND US</p>
+          </div>
+          <!-- Social Media Icons -->
+          <div class="flex justify-between my-8">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class=" w-4 sm:w-6 fill-white cursor-pointer hover:fill-black"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4  sm:w-6 fill-white cursor-pointer hover:fill-black"><path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 sm:w-6 fill-white cursor-pointer hover:fill-black"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+          </div>
+          <!-- End of Social Media Icons -->
+        </div>
+        <!-- End of Support and Enquiries & Find us & Social media icons section -->
+      </footer>
+      <!-- End of Footer Section -->
+    </div>
+    <!-- End of Body -->
  </div>
- <div class="bg-white">
-  <div class="flex mx-auto md:ml-10 lg:ml-12 ">
-   <div class=" w-64 lg:w-64  sm:w-72 ml-7 sm:ml-18 lg:ml-11 sm:items-center">
-    <h2 class="font-bold sm:text-center text-2xl sm:text-2xl lg:text-3xl lg:ml-40 lg:tracking-wider xl:tracking-widest pt-20  md:pt-28 w-48 sm:w-64">Indulge in Scandinavian luxury</h2>
-    <p class="text-sm sm:text-lg xl:text-xl md:w-56 font-serif w-48 sm:w-52 mt-2 sm:pl-4 lg:ml-36 lg:my-4 tracking-wider sm: tracking-tight">Grown, sanded, designed and engineered in Switzerland's Reserves</p>
-    <button class="text-white text-sm bg-yellow-700 p-1 rounded-lg lg:absolute sm:ml-8 lg:ml-44 xl:ml-40 lg:mr-0 mt-4 ml-2 md:mt-0   hover:text-black hover:bg-white">WATCH OUR PROCESS</button>
-   </div>
-   <img src="./assets/jeffery-ho-TIN_Lh9-Y7g-unsplash.jpg" class="w-64 sm:w-72 md:w-96 md:h-96 sm:ml-16 md:ml-16 lg:ml-52  sm:pt-4 lg:pt-12 xl:pt-16  xl:w-2/4  object-cover object-center xl:object-fit z-10 rounded-lg mr-2" alt="img">
-  </div>
-  <div class="mt-12 mx-auto">
-   <h1 class="font-bold md:text-xl  ml-6 lg:ml-16">EXPLORE</h1>
-   <div class="flex mx-5 lg:mx-16 ">
-    <div class="w-1/3 md:w-4/12">
-     <img src="./assets/1dcbf22caba3b511d8e24cedb1b331ab.jpg" alt="img" class="object-cover object-center lg:object-bottom w-full h-28 md:h-36">
-     <p class="mt-2 text-center ml-2 text-sm sm:text-md md:text-lg lg:w-52 lg:ml-12 xl:w-60 xl:ml-16 leading-6">Furniture crafted with 100% Alps timber, decades old carpentary process</p>
-    </div>
-    <div class="w-1/3 md:w-4/12">
-     <img src="./assets/jean-philippe-delberghe_unsplash-1-200x300.jpg" alt="img" class="object-cover object-center w-full h-28 md:h-36 overflow-hidden">
-     <p class="mt-2 text-center ml-2 text-sm sm:text-md md:text-lg lg:w-52 lg:ml-12 xl:w-60 xl:ml-20    leading-6">Sophisticated fixtures and high end decorative services</p>
-    </div>
-    <div class="w-1/3 md:w-4/12">
-     <img src="./assets/nathan-oakley-5IJvk9zN-ro-unsplash.jpg" alt="img" class="object-cover object-center lg:object-bottom w-full h-28 md:h-36">
-     <p class="mt-2 text-center ml-2 text-sm sm:text-md md:text-lg lg:w-52 lg:ml-12 xl:w-60 xl:ml-24  leading-6">An incorporation of modern urban design and traditional minimal craft</p>
-    </div>
-   </div>
-  </div>
-  <h1 class="font-bold  ml-8 sm:ml-12 lg:ml-16 md:text-lg pb-2 mt-12 sm:mt-14">MAKEOVER YOUR</h1>
-  <div class="relative mx-auto w-96 h-1/2 sm:w-4/5 md:w-11/12 md:max-h-fit">
-   <img src="./assets/under-cabinet-task-lighting-2000x875.jpg" alt="img" class="object-cover object-center w-full h-full">
-   <p class="absolute sm:text-white left-2  top-36 sm:top-48 md:pt-20 lg:pt-44 xl:pt-64 sm:text-lg md:text-xl font-bold tracking-wider">HOME</p>
-  <div class="relative mx-auto my-6 w-96 sm:w-full h-1/2 md:w-full md:max-h-fit">
-   <img src="./assets/built-in-reading-nook-230817-111-01.jpg" alt="img" class="object-cover object-center lg:object-bottom w-full h-full lg:h-fit">
-   <p class="absolute left-2 sm:text-gray-300 top-44 sm:top-60 md:pt-24 lg:pt-48 xl:pt-80 md:text-xl font-bold tracking-wider">WORKSPACES</p>
-  <div class="relative mx-auto my-6 w-96 h-1/2 sm:w-full md:w-full md:max-h-fit">
-   <img src="./assets/quaz_blog_kanso.jpg" alt="img" class="object-cover object-center w-full h-full lg:h-fit">
-   <p class="absolute top-40 sm:top-56 sm:text-white left-5 sm:left-2 md:pt-24 lg:pt-44 xl:pt-72 md:text-xl font-bold tracking-wider ">SPACE & REC SPACES</p>
-  </div>
- </div>
- </div>
- <div class="bg-yellow-700 w-full relative h-64 sm:h-56">
-   <h1 class="font-bold text-3xl rotate-90 absolute top-16 sm:top-6 w-5 tracking-widest">CLIENTELE</h1>
-   <div class="flex mx-auto w-3/4 ">
-    <div  class="w-1/3 mx-3 mt-14" >
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-6 "><path d="M96 96C42.98 96 0 138.1 0 192s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192C192 138.1 149 96 96 96zM448 192c0-53.02-42.98-96-96-96s-96 42.98-96 96s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192z"/></svg>
-     <p class="text-white text-sm lg:text-lg h-14  sm:h-6 text-center">TRUSTED HIGH END COMFORT AND LUXURY</p>
-     <a href="#"><img src="https://www.freepnglogos.com/uploads/vogue-png-logo/vogue-emblem-png-logo-6.png" class="object-fit object-center" width="100" alt=""></a>
-    </div>
-    <div class="w-1/3 mx-3 mt-8 h-20" >
-     <p class="text-white text-sm lg:text-lg h-14 lg:h-16 sm:h-10 text-center">TRUSTED HIGH END COMFORT AND LUXURY</p>
-     <br class="sm:hidden">
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-5"><path d="M96 96C42.98 96 0 138.1 0 192s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192C192 138.1 149 96 96 96zM448 192c0-53.02-42.98-96-96-96s-96 42.98-96 96s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192z"/></svg>
-     <a href="#"><img src="https://iconape.com/wp-content/files/ju/183533/png/architectural-digest-logo.png" width="50" alt=""></a>
-    </div>
-    <div class="w-1/3 mx-3 mt-10">
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-5"><path d="M96 96C42.98 96 0 138.1 0 192s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192C192 138.1 149 96 96 96zM448 192c0-53.02-42.98-96-96-96s-96 42.98-96 96s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192z"/></svg>
-     <p class="text-white text-sm lg:text-lg h-14 sm:h-8 text-center">SOPHISTICATED FIXTURES AND HIGH END WIRING SERVICES</p>
-     <br>
-     <a href="#"><img src="https://iconape.com/wp-content/files/tr/200419/svg/elle-decor-seeklogo.com.svg" alt="" width="100"></a>
-    </div>
-   </div>
-  </div>
-  <div class="mt-8 w-full mx-auto relative h-64 ">
-   <img src="./assets/Connolly-Company-Walnut-Desk-iii-1280x853.jpg" alt="" class="w-full h-full  object-cover object-center ">
-   <div class="absolute h-32 p-4 bg-black  top-8 left-32 lg:left-80 xl:left-96 sm:left-52 md:ml-16">
-    <h2 class="text-white text-center md:tracking-wider lg:text-lg w-80 ">Discover your furniture style with this AI Powered quiz</h2>
-    <button class="text-white text-sm bg-black ml-24 p-1 font-mono rounded-lg w-28 h-8 border hover:text-black hover:bg-white ">TAKE QUIZ</button>
-   </div>
-  </div>
-  <div class="bg-yellow-700 w-full mt-4 flex justify-between">
-   <div class="pt-12 ml-5 md:ml-10 lg:ml-16">
-    <div class="my-5">
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="w-5 fill-white"><path d="M0 80C0 53.49 21.49 32 48 32H144C170.5 32 192 53.49 192 80V96H384V80C384 53.49 405.5 32 432 32H528C554.5 32 576 53.49 576 80V176C576 202.5 554.5 224 528 224H432C405.5 224 384 202.5 384 176V160H192V176C192 177.7 191.9 179.4 191.7 180.1L272 288H368C394.5 288 416 309.5 416 336V432C416 458.5 394.5 480 368 480H272C245.5 480 224 458.5 224 432V336C224 334.3 224.1 332.6 224.3 331L144 224H48C21.49 224 0 202.5 0 176V80z"/></svg>
-     <p class="text-white text-sm cursor-pointer hover:underline">CATEGORIES</p>
-    </div>
-    <div class="my-5">
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-5 fill-white "><path d="M288 358.3c13.98-8.088 17.53-30.04 28.88-41.39c11.35-11.35 33.3-14.88 41.39-28.87c7.98-13.79 .1658-34.54 4.373-50.29C366.7 222.5 383.1 208.5 383.1 192c0-16.5-17.27-30.52-21.34-45.73c-4.207-15.75 3.612-36.5-4.365-50.29c-8.086-13.98-30.03-17.52-41.38-28.87c-11.35-11.35-14.89-33.3-28.87-41.39c-13.79-7.979-34.54-.1637-50.29-4.375C222.5 17.27 208.5 0 192 0C175.5 0 161.5 17.27 146.3 21.34C130.5 25.54 109.8 17.73 95.98 25.7C82 33.79 78.46 55.74 67.11 67.08C55.77 78.43 33.81 81.97 25.72 95.95C17.74 109.7 25.56 130.5 21.35 146.2C17.27 161.5 .0008 175.5 .0008 192c0 16.5 17.27 30.52 21.34 45.73c4.207 15.75-3.615 36.5 4.361 50.29C33.8 302 55.74 305.5 67.08 316.9c11.35 11.35 14.89 33.3 28.88 41.4c13.79 7.979 34.53 .1582 50.28 4.369C161.5 366.7 175.5 384 192 384c16.5 0 30.52-17.27 45.74-21.34C253.5 358.5 274.2 366.3 288 358.3zM112 192c0-44.27 35.81-80 80-80s80 35.73 80 80c0 44.17-35.81 80-80 80S112 236.2 112 192zM1.719 433.2c-3.25 8.188-1.781 17.48 3.875 24.25c5.656 6.75 14.53 9.898 23.12 8.148l45.19-9.035l21.43 42.27C99.46 507 107.6 512 116.7 512c.3438 0 .6641-.0117 1.008-.0273c9.5-.375 17.65-6.082 21.24-14.88l33.58-82.08c-53.71-4.639-102-28.12-138.2-63.95L1.719 433.2zM349.6 351.1c-36.15 35.83-84.45 59.31-138.2 63.95l33.58 82.08c3.594 8.797 11.74 14.5 21.24 14.88C266.6 511.1 266.1 512 267.3 512c9.094 0 17.23-4.973 21.35-13.14l21.43-42.28l45.19 9.035c8.594 1.75 17.47-1.398 23.12-8.148c5.656-6.766 7.125-16.06 3.875-24.25L349.6 351.1z"/></svg>
-     <p class="text-white text-sm cursor-pointer hover:underline">OUR WORK</p>
-    </div>
-    <div class="my-5 sm:mt-8">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-5 fill-white"><path d="M256 0v128h128L256 0zM224 128L224 0H48C21.49 0 0 21.49 0 48v416C0 490.5 21.49 512 48 512h288c26.51 0 48-21.49 48-48V160h-127.1C238.3 160 224 145.7 224 128zM96 32h64v32H96V32zM96 96h64v32H96V96zM96 160h64v32H96V160zM128.3 415.1c-40.56 0-70.76-36.45-62.83-75.45L96 224h64l30.94 116.9C198.7 379.7 168.5 415.1 128.3 415.1zM144 336h-32C103.2 336 96 343.2 96 352s7.164 16 16 16h32C152.8 368 160 360.8 160 352S152.8 336 144 336z"/></svg>
-    </div>
-   </div>
-   <h1 class="text-white sm:text-lg lg:text-2xl xl:text-3xl sm:font-bold mt-28 w-6 text-center mr-12 xl:mr-20 tracking-widest">AXEL GUSTAFSSON</h1>
-   <div class="mt-12 mr-3 w-28 md:mr-5 xl:mr-10">
-    <div class="my-5">
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 sm:w-5 fill-white"><path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"/></svg>
-     <p class="text-white text-center w-2 sm:w-28 text-sm cursor-pointer hover:underline">SUPPORT AND ENQUIRIES</p>
-    </div>
-    <div class="my-5">
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-4 sm:w-5 sm:ml-3 fill-white"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
-     <p class="text-white text-sm sm:ml-3 cursor-pointer hover:underline">FIND US</p>
-    </div>
-    <div class="flex justify-between my-8">
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class=" w-4 sm:w-6 fill-white cursor-pointer hover:fill-black"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4  sm:w-6 fill-white cursor-pointer hover:fill-black"><path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"/></svg>
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 sm:w-6 fill-white cursor-pointer hover:fill-black"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
-    </div>
-   </div>
-  </div>
- </div>
+ <!-- End of Container -->
  <script src="./index.js"></script>
 </body>
 </html>
