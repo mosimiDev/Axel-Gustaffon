@@ -10,43 +10,43 @@
 </head>
 <body>
   <!-- Container -->
-  <div class="w-vw h-full">
+  <div class="w-screen h-full ">
     <!-- Landing Page -->
-    <div class="bg-yellow-700 h-96 w-vw">
+    <div class="bg-yellow-700 h-96 w-screen">
       <!-- Nav Bar -->
-      <nav class="flex justify-between relative mx-auto  px-5 w-full">
-      <h1 class="text-white relative font-bold text-2xl  w-4 leading-6 ">AXEL GUSTAFSSON</h1>
-      <a href="javascript:void(0);" class="block md:hidden text-white text-xl mt-4 " id="barsIcon" onclick="barFunction()">
+      <nav class="flex gap-[17rem] md:gap-[35rem] md:px-5 w-full">
+      <h1 class="text-white ml-4 mt-2 font-bold text-sm lg:text-lg w-4 leading-6 ">AXEL GUSTAFSSON</h1>
+      <a href="javascript:void(0);" class="block md:hidden text-white text-sm xl:text-xl mt-4 " id="barsIcon" onclick="barFunction()">
         <i class="fa-solid fa-bars " ></i>
       </a>
-      <a href="javascript:void(0);" class="hidden text-white text-xl mt-4 "id="closeIcon" onclick="closeFunction()">
+      <a href="javascript:void(0);" class="hidden text-white text-sm xl:text-xl mt-4 "id="closeIcon" onclick="closeFunction()">
         <i class="fa-solid fa-xmark" ></i>
       </a>
-      <ul class="hidden text-center md:flex md:mt-4 md:ml-80 lg:ml-96 overflow-hidden z-20 md:z-auto  absolute shrink-0 bg-black  md:bg-opacity-0 left-0 w-full md:w-auto md:py-0 py-4   transition-all ease-in duration-400" id="myList">
-        <li class="my-6 md:block md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6  xl:px-10 hover:text-yellow-700 md:hover:text-white md:hover:underline " href="#">HOME</a></li>
+      <ul class="hidden text-center md:flex md:gap-6 xl:gap-1  md:mt-4 md:ml-64 lg:ml-72 lg:mt-4 overflow-hidden z-20 md:z-auto absolute shrink-0 bg-amber-600 md:bg-opacity-0 left-0 w-full md:w-auto  md:py-0 py-4   transition-all ease-in duration-400" id="myList">
+        <li class="my-6 text-sm md:block md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6  xl:px-10 hover:text-yellow-700 md:hover:text-white md:hover:underline " href="#">HOME</a></li>
         <hr class="w-4/5 ml-9 md:hidden">
-        <li class="my-6 md:block md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6 xl:px-10 hover:text-yellow-700 md:hover:text-white  md:hover:underline" href="#">WORK</a></li>
+        <li class="my-6 md:block text-sm md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6 xl:px-10 hover:text-yellow-700 md:hover:text-white  md:hover:underline" href="#">WORK</a></li>
         <hr class="w-4/5 ml-9 md:hidden">
-        <li class="my-6 md:block md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6 xl:px-10 hover:text-yellow-700 md:hover:text-white md:hover:underline" href="#">DECOR</a></li>
+        <li class="my-6 md:block text-sm md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6 xl:px-10 hover:text-yellow-700 md:hover:text-white md:hover:underline" href="#">DECOR</a></li>
         <hr class="w-4/5 ml-9 md:hidden">
-        <li class="my-6 md:block md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6 xl:px-10 hover:text-yellow-700 md:hover:text-white md:hover:underline " href="#">AXEL</a></li>
+        <li class="my-6 md:block text-sm md:my-0"><a class="w-6 text-white h-6 md:mx-4 lg:px-6 xl:px-10 hover:text-yellow-700 md:hover:text-white md:hover:underline " href="#">AXEL</a></li>
         <hr class="w-4/5 ml-9 md:hidden">
-        <button class=" md:block text-white bg-black font-mono h-8 w-28 mx-0 my-4 xl:ml-24  md:my-0 rounded-full hover:bg-white hover:text-black">TALK TO US</button>
+        <button class=" md:block text-white bg-black text-sm p-1 w-[6rem] mx-0 my-4 xl:ml-24  md:my-0 rounded-full hover:bg-white hover:text-black">TALK TO US</button>
       </ul>
       </nav>
       <!-- End of Nav Bar -->
       <!-- Input bar & Search button -->
       <div class="mt-12">
-      <input type="text" placeholder="e.g sofa, ottoman, desk" class="ml-5 sm:ml-10lg:px-8 lg:ml-16 xl:ml-28 py-2 placeholder-gray-500 placeholder:pl-8 border-none ring-2 ring-gray-200  rounded-full w-4/5 focus: gray-300 focus:ring-2" >
+      <input type="text" placeholder="e.g sofa, ottoman, desk" class="ml-5 w-32 sm:ml-10 lg:px-8 lg:ml-16 xl:ml-28 py-2 placeholder-gray-500 placeholder:pl-8 border-none ring-2 ring-gray-200  rounded-full w-4/5 focus:gray-300 focus:ring-2" >
       <button class="ml-4 w-5 h-6"><svg class="fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"/></svg></button>
       </div>
       <!-- End of Input bar & Search button -->
       <!-- Hero section -->
       <div class="w-vw flex mt-6 md:mt-8 md:ml-16 lg:ml-48 xl:ml-60 relative ">
-      <img src="./assets/Section-couleur-terreuses-1536x1260.jpg" alt="img" class="w-3/5 ml-6 sm:w-96 h-64 lg:h-72 xl:w-2/4 rounded-md object-cover absolute object-center" >
+      <img src="./assets/Section-couleur-terreuses-1536x1260.jpg" alt="img" class="w-3/5 ml-6 md:w-96 h-64 lg:h-72 xl:w-2/4 rounded-md object-cover absolute object-center" >
       <div class="absolute left-40 sm:left-80 xl:left-96 xl:pl-28 w-48 sm:w-42 sm:w-64">
-        <h2 class="text-white leading-7 font-bold text-xl sm:text-3xl tracking-wide sm:text-2xl lg:text-3xl  w-44 sm:w-64">Transform your space with 100% Alps Timber</h2>
-        <p class="text-white leading-6 text-sm sm:text-lg lg:text-lg sm:tracking-tight  sm:w-64 ">Homegrown craftmanship passed down from decades of process and improvements</p>
+        <h2 class="text-white leading-7 font-bold text-base  tracking-wide  lg:text-xl  w-44 sm:w-64">Transform your space with 100% Alps Timber</h2>
+        <p class="text-white leading-6 text-sm sm:text-lg lg:text-xl sm:tracking-tight  sm:w-64 ">Homegrown craftmanship passed down from decades of process and improvements</p>
         <button class="text-white text-sm bg-black p-1 rounded-lg mt-2 border hover:text-black hover:bg-white">GET STARTED</button>
       </div>
       </div>
@@ -54,42 +54,42 @@
     </div>
     <!-- End of Landing Page -->
     <!-- Body -->
-    <div class="bg-white w-vw h-full">
-      <div class=" w-vw flex   lg:ml-12 ">
+    <div class="bg-white w-screen h-full">
+      <div class=" w-screen flex lg:ml-12 ">
       <div class=" w-2/5 lg:w-64  sm:w-72 mx-4 md:mx-0  md:ml-10  lg:ml-11 sm:items-right">
-        <h2 class="font-bold  sm:text-center text-2xl sm:text-2xl  lg:ml-40 lg:tracking-wider pt-10  md:pt-20 w-48 sm:w-64 ">Indulge in Scandinavian luxury</h2>
-        <p class="text-sm sm:text-lg  md:w-56 font-serif w-40 sm:w-52 mt-2 sm:pl-4 md:pl-8 lg:ml-36 lg:my-4 tracking-wider sm: tracking-tight">Grown, sanded, designed and engineered in Switzerland's Reserves</p>
-        <button class="text-white py-2 px-1 text-xs bg-yellow-700 rounded-lg lg:absolute sm:ml-8 lg:ml-44 xl:ml-40 lg:mr-0 mt-4 ml-2 md:mt-0   hover:fa-underline ">WATCH OUR PROCESS</button>
+        <h2 class="font-bold  sm:text-center text-sm sm:text-base lg:text-lg lg:ml-40 lg:tracking-wider pt-10  md:mt-36 w-48 sm:w-64 ">Indulge in Scandinavian luxury</h2>
+        <p class="text-sm sm:text-lg  md:w-56  w-40 sm:w-52 mt-2 md:mt-4 sm:pl-4 md:pl-8 lg:ml-36 lg:my-4 sm: tracking-tight">Grown, sanded, designed and engineered in Switzerland's Reserves</p>
+        <button class="text-white py-2 px-1 text-xs bg-yellow-700 rounded-lg lg:absolute sm:ml-8 lg:ml-44 xl:ml-52 xl:mt-1 lg:mr-0 mt-4 ml-2 md:mt-4   hover:fa-underline ">WATCH OUR PROCESS</button>
       </div>
-      <img src="./assets/jeffery-ho-TIN_Lh9-Y7g-unsplash.jpg" class=" w-1/2 h-full sm:w-72 md:w-96 md:h-96 sm:ml-16 md:ml-16 lg:ml-52  sm:pt-4 lg:pt-12 xl:pt-16  xl:w-2/4  object-cover object-center xl:object-fit z-10 rounded-lg mr-2" alt="img">
+      <img src="./assets/jeffery-ho-TIN_Lh9-Y7g-unsplash.jpg" class=" w-1/2 h-full xl:h-[28rem] sm:w-72 md:w-96  sm:ml-6  md:ml-16 lg:ml-52  sm:pt-4 lg:pt-12 xl:pt-16  xl:w-1/3  object-cover object-center xl:object-fit z-10 rounded-md mr-2" alt="img">
       </div>
       <div class="mt-12 mx-auto">
-      <h1 class="font-bold md:text-xl  ml-6 lg:ml-16">EXPLORE</h1>
+      <h1 class="font-bold md:text-base  ml-6 lg:ml-16">EXPLORE</h1>
       <div class="flex mx-5 lg:mx-16 ">
         <div class="w-1/3 md:w-4/12">
         <img src="./assets/1dcbf22caba3b511d8e24cedb1b331ab.jpg" alt="img" class="object-cover object-center lg:object-bottom w-full h-28 md:h-36">
-        <p class="mt-2 text-center ml-2 text-sm sm:text-md md:text-lg lg:w-52 lg:ml-12 xl:w-60 xl:ml-16 leading-6">Furniture crafted with 100% Alps timber, decades old carpentary process</p>
+        <p class="mt-2 text-center ml-2 text-sm sm:text-base md:text-lg lg:w-52 lg:ml-12 xl:w-60 xl:ml-16 leading-6">Furniture crafted with 100% Alps timber, decades old carpentary process</p>
         </div>
         <div class="w-1/3 md:w-4/12">
-        <img src="./assets/jean-philippe-delberghe_unsplash-1-200x300.jpg" alt="img" class="object-cover object-center w-full h-28 md:h-36 overflow-hidden">
-        <p class="mt-2 text-center ml-2 text-sm sm:text-md md:text-lg lg:w-52 lg:ml-12 xl:w-60 xl:ml-20    leading-6">Sophisticated fixtures and high end decorative services</p>
+        <img src="./assets/jean-philippe-delberghe_unsplash-1-200x300.jpg" alt="img" class="object-cover object-center w-full h-28 md:w-48  md:mx-8 md:h-36 xl:w-10/12 overflow-hidden">
+        <p class="mt-2 text-center ml-2 text-sm sm:text-md  md:text-lg lg:w-40 lg:ml-12 xl:w-60 xl:ml-20    leading-6">Sophisticated fixtures and high end decorative services</p>
         </div>
-        <div class="w-1/3 md:w-4/12">
+        <div class="w-1/3 md:w-4/12 ">
         <img src="./assets/nathan-oakley-5IJvk9zN-ro-unsplash.jpg" alt="img" class="object-cover object-center lg:object-bottom w-full h-28 md:h-36">
         <p class="mt-2 text-center ml-2 text-sm sm:text-md md:text-lg lg:w-52 lg:ml-12 xl:w-60 xl:ml-24  leading-6">An incorporation of modern urban design and traditional minimal craft</p>
         </div>
       </div>
       </div>
-      <h1 class="font-bold  ml-3 sm:ml-12 lg:ml-16 md:text-lg pb-2 mt-12 sm:mt-14">MAKEOVER YOUR</h1>
-      <div class="relative w-vw h-1/2 sm:w-4/5 md:w-11/12 md:max-h-fit">
+      <h1 class="font-bold  ml-3 sm:ml-12 lg:ml-16 md:text-base pb-2 mt-12 sm:mt-14">MAKEOVER YOUR</h1>
+      <div class="relative w-vw h-1/2 sm:w-4/5 sm:mx-8 md:w-11/12 md:max-h-fit">
       <img src="./assets/under-cabinet-task-lighting-2000x875.jpg" alt="img" class="object-cover object-center w-full h-full">
-      <p class="absolute sm:text-white left-2  top-36 sm:top-48 md:pt-20 lg:pt-44 xl:pt-64 sm:text-lg md:text-xl font-bold tracking-wider">HOME</p>
+      <p class="absolute left-2 sm:text-base  top-[8rem] sm:top-48 md:pt-20 lg:pt-44 xl:pt-64 sm:text-lg md:text-base font-bold tracking-wider">HOME</p>
       <div class="relative  my-6 w-vw sm:w-full h-1/2 md:w-full md:max-h-fit">
-      <img src="./assets/built-in-reading-nook-230817-111-01.jpg" alt="img" class="object-cover object-center lg:object-bottom w-full h-full lg:h-fit">
-      <p class="absolute left-2 sm:text-gray-300 top-44 sm:top-60 md:pt-24 lg:pt-48 xl:pt-80 md:text-xl font-bold tracking-wider">WORKSPACES</p>
+      <img src="./assets/built-in-reading-nook-230817-111-01.jpg" alt="img" class="object-cover object-center lg:object-bottom w-full h-full lg:h-fit xl:h-[40rem]">
+      <p class="absolute left-2 sm:text-base top-[7.72rem] sm:top-60 md:pt-24 lg:pt-48 xl:pt-80 md:text-base font-bold tracking-wider">WORKSPACES</p>
       <div class="relative my-6 w-vw h-1/2 sm:w-full md:w-full md:max-h-fit">
-      <img src="./assets/quaz_blog_kanso.jpg" alt="img" class="object-cover object-center w-full h-full lg:h-fit">
-      <p class="absolute top-40 sm:top-56 sm:text-white left-5 sm:left-2 md:pt-24 lg:pt-44 xl:pt-72 md:text-xl font-bold tracking-wider ">SPACE & REC SPACES</p>
+      <img src="./assets/quaz_blog_kanso.jpg" alt="img" class="object-cover object-center w-full h-full lg:h-fit xl:h-[35rem] ">
+      <p class="absolute top-40 sm:top-56 sm:text-base left-5 sm:left-2 md:pt-24 lg:pt-44 xl:pt-72 md:text-base font-bold tracking-wider ">SPACE & REC SPACES</p>
       </div>
     </div>
     </div>
@@ -144,7 +144,7 @@
         <h1 class="text-white sm:text-lg lg:text-2xl xl:text-3xl sm:font-bold mt-28 w-6 text-center mr-16 xl:mr-20 tracking-widest">AXEL GUSTAFSSON</h1>
         <!-- End of Logo Text -->
         <!-- Support and Enquiries & Find us & Social media icons section  -->
-        <div class="mt-12 mr-2 w-28 md:mr-5 xl:mr-10">
+        <div class="mt-12 mr-2 sm:mr-6 w-28 md:mr-5 xl:mr-10">
           <div class="my-5">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 sm:w-5 fill-white"><path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"/></svg>
           <p class="text-white text-center w-2 sm:w-28 text-xs cursor-pointer hover:underline">SUPPORT AND ENQUIRIES</p>
@@ -154,7 +154,7 @@
           <p class="text-white text-xs sm:ml-3 cursor-pointer hover:underline">FIND US</p>
           </div>
           <!-- Social Media Icons -->
-          <div class="flex justify-between my-8">
+          <div class="flex gap-4 my-8">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class=" w-4 sm:w-6 fill-white cursor-pointer hover:fill-black"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4  sm:w-6 fill-white cursor-pointer hover:fill-black"><path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"/></svg>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 sm:w-6 fill-white cursor-pointer hover:fill-black"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
